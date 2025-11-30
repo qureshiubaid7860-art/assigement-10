@@ -1,0 +1,97 @@
+body {
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+}
+
+h1 {
+    padding-top: 150px;
+    font-size: xx-large;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box1 {
+    margin-top: 400px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.box2 {
+    margin-top: 400px;
+    width: 100px;
+    height: 100px;
+    background-color: hsl(214, 17%, 71%);
+    display: inline-block;
+}
+
+.box3 {
+    margin-top: 400px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(238, 241, 239);
+    display: inline-block;
+}
+
+.box4 {
+    margin-top: 400px;
+    width: 100px;
+    height: 100px;
+    background-color: #1c2321;
+    display: inline-block;
+}
+
+.box5 {
+
+    width: 100px;
+    height: 100px;
+    background-color: #567;
+    display: inline-block;
+}
+
+main {
+    text-align: center;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 10px #888888;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    border: 2px solid rgba(92, 71, 82, 0.8);
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    color: hsl(79 100% 60%);
+    border: rgba(255, 0, 0, );
+}
+
+button {
+    margin: 20px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 24%, rgba(87, 199, 133, 1) 76%, rgba(237, 221, 83, 1) 100%);
+}
+
+img {
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
